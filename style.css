@@ -1,1 +1,31 @@
+h1, h2, h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+  text-align: center;
+}
 
+ul, ol, p {
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+color: darkslategrey;
+line-height: 22px;
+background-color: honeydew;
+}
+
+header {
+  height: 115px;
+  background-color: honeydew
+}
+.center {
+  text-align: center;
+}
+
+.wraper {
+  width:1000px;
+  margin: auto;
+}
+
+.image {
+  width: 600px;
+  height: auto;
+}
