@@ -2,19 +2,22 @@ h1, h2, h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: blue;
   text-align: center;
+  padding: 6px 12px;
 }
-
+/* grouping headers together */
 ul, ol, p {
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 16px;
 color: darkslategrey;
 line-height: 22px;
 background-color: honeydew;
+  padding: 6px 12px;
 }
-
+/*all lists and paras, everything after is individual*/
 header {
   height: 115px;
-  background-color: honeydew
+  background-color: honeydew;
+    padding: 6px 12px;
 }
 .center {
   text-align: center;
@@ -23,9 +26,21 @@ header {
 .wraper {
   width:1000px;
   margin: auto;
+  padding: 6px 12px;
 }
 
 .image {
   width: 600px;
   height: auto;
+  padding: 6px 12px;
+}
+
+.btn {
+  display: inline-block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
 }
