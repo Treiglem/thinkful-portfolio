@@ -22,19 +22,19 @@ header {
 .center {
   text-align: center;
 }
-
+/*telling what .center does*/
 .wraper {
   width:1000px;
   margin: auto;
   padding: 6px 12px;
 }
-
+/*telling what .wraper does*/
 .image {
   width: 600px;
   height: auto;
   padding: 6px 12px;
 }
-
+/*telling what .image does*/
 .btn {
   display: inline-block;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -44,3 +44,4 @@ header {
   padding: 6px 12px;
   border-radius: 6px;
 }
+/*telling what .btn does*/
